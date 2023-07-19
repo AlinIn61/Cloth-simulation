@@ -1,0 +1,10 @@
+{
+  "name" : "cloth",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "638b1588be3a265a9c7ad5b212cef72a1cad336a",
+  "dependencies" : [ {
+    "name" : "raylib",
+    "version>=" : "4.5.0",
+    "$comment" : "    # this is heuristically generated, and may not be correct\n\n    find_package(raylib CONFIG REQUIRED)\n\n    target_link_libraries(main PRIVATE raylib)\n"
+  } ]
+}
